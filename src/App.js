@@ -65,7 +65,7 @@ useEffect(()=>{
       previous= previous.previousElementSibling
       }
   }
-},[about])
+},[about,windowx,array])
  
   const screen_size = window.innerWidth
   function click(e){
