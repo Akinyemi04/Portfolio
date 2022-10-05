@@ -8,23 +8,23 @@ const Portfolio = () => {
       <span>App</span>
       <main>
         <section>
-          <iframe src="https://twitter-clone-67536.web.app/" frameborder="0"></iframe>
+          <iframe title='A twitter clone' src="https://twitter-clone-67536.web.app/" frameborder="0"></iframe>
           <a href="https://twitter-clone-67536.web.app/">Twitter-Clone</a>
         </section>
         <section>
-          <iframe src="https://countryroll.netlify.app/" frameborder="0"></iframe>
+          <iframe title='A Country Info App' src="https://countryroll.netlify.app/" frameborder="0"></iframe>
           <a href="https://countryroll.netlify.app/">Country-roll</a>
         </section>
         <section>
-          <iframe src="https://netflix-0a.netlify.app/" frameborder="0"></iframe>
+          <iframe title='Netflix Clone' src="https://netflix-0a.netlify.app/" frameborder="0"></iframe>
           <a  href='https://netflix-0a.netlify.app/'>Netflix-Clone</a>
         </section>
         <section>
-          <iframe src="https://calculatorx1x.netlify.app/" frameborder="0"></iframe>
+          <iframe title='A Calculator' src="https://calculatorx1x.netlify.app/" frameborder="0"></iframe>
           <a href="https://calculatorx1x.netlify.app/">Calculator</a>
         </section>
         <section>
-          <iframe src="https://e-commercial01x.netlify.app/" frameborder="0"></iframe>
+          <iframe title='An ecommerce website' src="https://e-commercial01x.netlify.app/" frameborder="0"></iframe>
           <a href="https://e-commercial01x.netlify.app/">E-commerce</a>
         </section>
         
