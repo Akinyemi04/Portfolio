@@ -590,6 +590,7 @@ header .icon .MuiSvgIcon-root:hover {
   }
   .mini section {
     flex-direction: column;
+    padding-bottom: 2vh;
   }
   .mini section div {
     width: 80vw;
