@@ -1,0 +1,108 @@
+.portfo{
+    text-align:center;
+    padding: 0 8vw;
+    opacity: 0;
+    animation: play 0.7s ease-in 0.3s forwards;
+    h1{
+        position:relative ;
+        display: inline-block;
+        min-width: 1vw;
+        top: 3vh;
+        font-size:23px;
+        color: rgb(53, 52, 52);
+        font-weight:bold;
+       text-transform: uppercase;
+      }
+      h1:after{
+        position: absolute;
+        border-top: .15em solid #34b7a7;
+          border-radius: 1rem;
+          content: '';
+          right: 60%;
+          left: 0;
+          bottom: -.54em;
+  
+      }
+      .content{
+        margin-top: 9vh;
+      }
+      span{
+        position: relative;
+        top: 4vh;
+        font-size: large;
+        padding: 1vh 2vw;
+        border-radius: 3vw;
+        background-color:#34b7a7;
+        color: white;
+      }
+      main{
+        display: flex;
+        margin-top: 8vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 82vw;
+        section{
+            text-align: left;
+            position: relative;
+            display: inline-block;
+            iframe{
+                width: 33vw;
+                margin-left: 6vw;
+                margin-bottom: 8vh;
+                height: 680px;
+                overflow: hidden;
+            }
+            a{
+                display: inline-block;
+                position: absolute;
+                left: 10vw;
+                bottom: 2vh;
+                text-decoration: none;
+                border-radius: 2vw;
+                padding: 1vh 2vw;
+                background-color: #34b7a7;
+                color: white;
+            }
+            a:hover{
+                opacity: 0.5;
+            }
+        }
+        
+      }
+}
+@keyframes play {
+    from {
+      opacity: 0;
+      transform: translateY(10vh);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @media screen and (max-width:'500px') {
+    .portfo{
+      padding: 0;
+      h1{
+        font-size: 20px;
+      }
+      .content{
+        padding: 0 2vw;
+      }
+      span{
+        padding: 1.3vh 5vw;
+        top: 4vh;
+        border-radius: 4vw;
+      }
+      main{
+        display: flex;
+        flex-direction: column;
+        section{
+          iframe{
+            width: 80vw;
+          }
+        }
+      }
+      
+    }
+  }

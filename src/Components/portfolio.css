@@ -1,0 +1,116 @@
+.portfo {
+  text-align: center;
+  padding: 0 8vw;
+  opacity: 0;
+  -webkit-animation: play 0.7s ease-in 0.3s forwards;
+          animation: play 0.7s ease-in 0.3s forwards;
+}
+.portfo h1 {
+  position: relative;
+  display: inline-block;
+  min-width: 1vw;
+  top: 3vh;
+  font-size: 23px;
+  color: rgb(53, 52, 52);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.portfo h1:after {
+  position: absolute;
+  border-top: 0.15em solid #34b7a7;
+  border-radius: 1rem;
+  content: "";
+  right: 60%;
+  left: 0;
+  bottom: -0.54em;
+}
+.portfo .content {
+  margin-top: 9vh;
+}
+.portfo span {
+  position: relative;
+  top: 4vh;
+  font-size: large;
+  padding: 1vh 2vw;
+  border-radius: 3vw;
+  background-color: #34b7a7;
+  color: white;
+}
+.portfo main {
+  display: flex;
+  margin-top: 8vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 82vw;
+}
+.portfo main section {
+  text-align: left;
+  position: relative;
+  display: inline-block;
+}
+.portfo main section iframe {
+  width: 33vw;
+  margin-left: 6vw;
+  margin-bottom: 8vh;
+  height: 680px;
+  overflow: hidden;
+}
+.portfo main section a {
+  display: inline-block;
+  position: absolute;
+  left: 10vw;
+  bottom: 2vh;
+  text-decoration: none;
+  border-radius: 2vw;
+  padding: 1vh 2vw;
+  background-color: #34b7a7;
+  color: white;
+}
+.portfo main section a:hover {
+  opacity: 0.5;
+}
+
+@-webkit-keyframes play {
+  from {
+    opacity: 0;
+    transform: translateY(10vh);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes play {
+  from {
+    opacity: 0;
+    transform: translateY(10vh);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfo {
+    padding: 0;
+  }
+  .portfo h1 {
+    font-size: 20px;
+  }
+  .portfo .content {
+    padding: 0 2vw;
+  }
+  .portfo span {
+    padding: 1.3vh 5vw;
+    top: 4vh;
+    border-radius: 4vw;
+  }
+  .portfo main {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfo main section iframe {
+    width: 80vw;
+  }
+}/*# sourceMappingURL=portfolio.css.map */
