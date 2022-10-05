@@ -45,6 +45,9 @@ useEffect(()=>{
         previous= previous.previousElementSibling
       }
     }
+    return(
+      <span></span>
+    )
   })
   
   if (about){
