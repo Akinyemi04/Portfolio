@@ -1,5 +1,10 @@
 import '../Components/portfolio.css'
-
+import twitter from './images/twitter.png'
+import netflix from './images/netflix.png'
+import calculator from './images/calculaator.png'
+import commerce from './images/e-commerce.png'
+import country from './images/country.png'
+import { calculateNewValue } from '@testing-library/user-event/dist/utils'
 const Portfolio = () => {
   return (
     <div className='portfo'>
@@ -8,23 +13,23 @@ const Portfolio = () => {
       <span>App</span>
       <main>
         <section>
-          <iframe title='A twitter clone' src="https://twitter-clone-67536.web.app/" frameborder="0"></iframe>
+          <img src={twitter} alt="twitter.webpage" />
           <a href="https://twitter-clone-67536.web.app/">Twitter-Clone</a>
         </section>
         <section>
-          <iframe title='A Country Info App' src="https://countryroll.netlify.app/" frameborder="0"></iframe>
+          <img src={country} alt="country-finder" />
           <a href="https://countryroll.netlify.app/">Country-roll</a>
         </section>
         <section>
-          <iframe title='Netflix Clone' src="https://netflix-0a.netlify.app/" frameborder="0"></iframe>
+         <img src={netflix} alt="netflix" />
           <a  href='https://netflix-0a.netlify.app/'>Netflix-Clone</a>
         </section>
         <section>
-          <iframe title='A Calculator' src="https://calculatorx1x.netlify.app/" frameborder="0"></iframe>
+          <img src={calculator} alt="calculator" />
           <a href="https://calculatorx1x.netlify.app/">Calculator</a>
         </section>
         <section>
-          <iframe title='An ecommerce website' src="https://e-commercial01x.netlify.app/" frameborder="0"></iframe>
+          <img src={commerce} alt="commerce" />
           <a href="https://e-commercial01x.netlify.app/">E-commerce</a>
         </section>
         

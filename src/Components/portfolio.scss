@@ -37,6 +37,7 @@
       }
       main{
         display: flex;
+        padding-top: 5vh;
         margin-top: 8vh;
         flex-direction: row;
         flex-wrap: wrap;
@@ -44,12 +45,14 @@
         section{
             text-align: left;
             position: relative;
+            margin-bottom: 4vh;
             display: inline-block;
-            iframe{
+            img{
                 width: 33vw;
                 margin-left: 6vw;
+                object-fit: contain;
                 margin-bottom: 8vh;
-                height: 680px;
+                height: 30vh;
                 overflow: hidden;
             }
             a{
@@ -98,7 +101,7 @@
         display: flex;
         flex-direction: column;
         section{
-          iframe{
+          img{
             width: 80vw;
           }
         }
