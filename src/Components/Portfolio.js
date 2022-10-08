@@ -4,7 +4,7 @@ import netflix from './images/netflix.png'
 import calculator from './images/calculaator.png'
 import commerce from './images/e-commerce.png'
 import country from './images/country.png'
-import { calculateNewValue } from '@testing-library/user-event/dist/utils'
+
 const Portfolio = () => {
   return (
     <div className='portfo'>

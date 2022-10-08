@@ -4,7 +4,6 @@ const Mini = () => {
     return (
         <div className='mini '>
             <h3>Skills</h3>
-            {/* <p>Skils i've acquired overtime through learning,experience and consistency</p> */}
             <section>
                 <div>
                 <p><span>JAVASCRIPT</span><span className='value'>60%</span></p> 
