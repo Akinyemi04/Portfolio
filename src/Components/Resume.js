@@ -61,7 +61,7 @@ const Resume = () => {
         <p className="content">FreeLance</p>
         <ul>
           <li>Twitter-clone</li>
-          <li>Netflix-xlone</li>
+          <li>Netflix-clone</li>
           <li>E-commerce</li>
           <li>Calculator</li>
         </ul>
