@@ -4,7 +4,7 @@ import netflix from './images/netflix.png'
 import calculator from './images/calculaator.png'
 import commerce from './images/e-commerce.png'
 import country from './images/country.png'
-
+import game from './images/Game.png'
 const Portfolio = () => {
   return (
     <div className='portfo'>
@@ -15,6 +15,10 @@ const Portfolio = () => {
         <section>
           <img src={twitter} alt="twitter.webpage" />
           <a href="https://twitter-clone-67536.web.app/">Twitter-Clone</a>
+        </section>
+        <section>
+            <img src={game} alt="" />
+            <a href="https://rock-paper-scissorx.netlify.app/">Rock-Paper-Scissors</a>
         </section>
         <section>
           <img src={country} alt="country-finder" />
