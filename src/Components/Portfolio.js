@@ -5,6 +5,8 @@ import calculator from './images/calculaator.png'
 import commerce from './images/e-commerce.png'
 import country from './images/country.png'
 import game from './images/Game.png'
+import url from './images/url.png'
+import ip from './images/ip_address.png'
 const Portfolio = () => {
   return (
     <div className='portfo'>
@@ -13,8 +15,16 @@ const Portfolio = () => {
       <span>App</span>
       <main>
         <section>
+          <img src={ip} alt="" />
+          <a href="https://ip-trackerx1.netlify.app/">IP Tracker</a>
+          </section>
+        <section>
           <img src={twitter} alt="twitter.webpage" />
           <a href="https://twitter-clone-67536.web.app/">Twitter-Clone</a>
+        </section>
+        <section>
+          <img src={url} alt="" />
+          <a href="https://url-shortenerx1x.netlify.app/">Url Shortener</a>
         </section>
         <section>
             <img src={game} alt="" />
