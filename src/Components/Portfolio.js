@@ -7,6 +7,8 @@ import country from './images/country.png'
 import game from './images/Game.png'
 import url from './images/url.png'
 import ip from './images/ip_address.png'
+import bank from './images/easybank.png'
+
 const Portfolio = () => {
   return (
     <div className='portfo'>
@@ -33,6 +35,10 @@ const Portfolio = () => {
         <section>
           <img src={country} alt="country-finder" />
           <a href="https://countryroll.netlify.app/">Country-roll</a>
+        </section>
+        <section>
+          <img src={bank} alt="" />
+          <a href="https://easy-bankx1.netlify.app/">EasyBank Landing page</a>
         </section>
         <section>
          <img src={netflix} alt="netflix" />
