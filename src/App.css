@@ -118,7 +118,7 @@ header .icon .MuiSvgIcon-root:hover {
   overflow: none;
   position: relative;
   background-color: #e9e8e6;
-  background-image: url("/src/Components/images/light.gif");
+  background-image: url("/src/Components/images/white.jpg");
   background-size: cover;
   text-align: center;
 }
@@ -458,15 +458,23 @@ header .icon .MuiSvgIcon-root:hover {
   box-shadow: 2px 2px 5px grey;
   text-align: center;
   transition: transform 0.5s ease;
+  text-decoration: none;
+  position: relative;
+}
+.contact-me a p {
+  margin-top: 3vh;
+  color: grey;
+  position: static;
 }
 .contact-me a .contact-icon {
   font-size: 40px;
+  position: static;
   margin-top: 5vh;
 }
 .contact-me a .instagram {
   color: rgb(230, 122, 127);
 }
-.contact-me :hover {
+.contact-me a:hover {
   transform: scale(1.05);
 }
 
@@ -597,6 +605,12 @@ header .icon .MuiSvgIcon-root:hover {
   }
   .contact-me a {
     height: 16vh;
+  }
+  .contact-me a .contact-icon {
+    margin-top: 3vh;
+  }
+  .contact-me a p {
+    margin-top: 1.7vh;
   }
   .resumex {
     padding: 0 3vw;
