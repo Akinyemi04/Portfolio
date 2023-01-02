@@ -561,6 +561,9 @@ header .icon .MuiSvgIcon-root:hover {
     margin-top: 1vh;
     right: 3vw;
   }
+  .home {
+    background-size: co;
+  }
   .home main .about-me {
     top: 4vh;
     padding: 1.5vh 3vw;

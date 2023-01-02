@@ -9,6 +9,7 @@ import url from './images/url.png'
 import ip from './images/ip_address.png'
 import bank from './images/easybank.png'
 import form from './images/multi-form.png'
+import jobber from './images/jobberman.png'
 const Portfolio = () => {
   return (
     <div className='portfo'>
@@ -16,6 +17,10 @@ const Portfolio = () => {
       <p className='content'>Projects  which i have worked on can be viewed below to better access the webapp  please click the buttons underneath them  and You'll be redirected to the webapp</p>
       <span>App</span>
       <main>
+        <section>
+          <img src={jobber} alt="" />
+          <a href="https://jobblee.netlify.app/">Jobber Man</a>
+          </section>
         <section>
           <img src={form} alt="" />
           <a href="https://form-livex1.netlify.app/">Gamer Sign-up</a>
