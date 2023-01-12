@@ -9,6 +9,7 @@ import url from './images/url.png'
 import ip from './images/ip_address.png'
 import bank from './images/easybank.png'
 import form from './images/multi-form.png'
+import countdown from './images/countdown.png'
 import jobber from './images/jobberman.png'
 const Portfolio = () => {
   return (
@@ -32,6 +33,10 @@ const Portfolio = () => {
         <section>
           <img src={twitter} alt="twitter.webpage" />
           <a href="https://twitter-clone-67536.web.app/">Twitter-Clone</a>
+        </section>
+        <section>
+          <img src={countdown} alt="" />
+          <a href="https://count-down01.netlify.app/">Countdown Timer</a>
         </section>
         <section>
           <img src={url} alt="" />
