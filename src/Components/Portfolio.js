@@ -11,6 +11,7 @@ import bank from './images/easybank.png'
 import form from './images/multi-form.png'
 import countdown from './images/countdown.png'
 import jobber from './images/jobberman.png'
+import ecommerce from './images/e-commerce-2.png'
 const Portfolio = () => {
   return (
     <div className='portfo'>
@@ -18,6 +19,10 @@ const Portfolio = () => {
       <p className='content'>Projects  which i have worked on can be viewed below to better access the webapp  please click the buttons underneath them  and You'll be redirected to the webapp</p>
       <span>App</span>
       <main>
+      <section>
+          <img src={ecommerce} alt="" />
+          <a href="https://elegant-commercial.netlify.app/">E-commerce</a>
+          </section>
         <section>
           <img src={jobber} alt="" />
           <a href="https://jobblee.netlify.app/">Jobber Man</a>
