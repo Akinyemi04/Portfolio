@@ -12,6 +12,7 @@ import form from './images/multi-form.png'
 import countdown from './images/countdown.png'
 import jobber from './images/jobberman.png'
 import ecommerce from './images/e-commerce-2.png'
+import home_page from './images/room-page.png'
 const Portfolio = () => {
   return (
     <div className='portfo'>
@@ -46,6 +47,10 @@ const Portfolio = () => {
         <section>
           <img src={url} alt="" />
           <a href="https://url-shortenerx1x.netlify.app/">Url Shortener</a>
+        </section>
+        <section>
+          <img src={home_page} alt="" />
+          <a href="https://home-suite.netlify.app/">Home-Royal</a>
         </section>
         <section>
             <img src={game} alt="" />
