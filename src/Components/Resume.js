@@ -42,7 +42,7 @@ const Resume = () => {
               <li>Systems Department</li>
               <li>Computer Science</li>
             </ul>
-              to better understand the candiesof coding
+              to better understand the candies of coding
           </li>
 
         </ul>
@@ -56,13 +56,25 @@ const Resume = () => {
       <section>
         <Brightness1OutlinedIcon className='circle'/>
         <HorizontalRuleIcon className='icon'/>
+        <p className="next-head">FULL STACK DEVELOPER</p>
+        <aside className="aside">2023 - Till Date</aside>
+        <p className='content'>Delph</p>
+        <ul>
+          <li>Created several api's for user authentication and third parties
+integration for full network flow</li>
+          <li>Built  fully functional and responsive websites </li>
+        </ul>
         <p className="next-head">FRONT-END DEVELOPER</p>
-        <aside className="aside">2022 - Till Date</aside>
+        <aside className='aside'> 01/ 10/ 22 - 20/ 12/ 2022</aside>
+        <p className="content">Internship</p>
+        <ul>
+          <li>Collaborated on projects which brought about better understanding of smooth  user interface and experience </li>
+        </ul>
+        <p className="next-head">FRONT-END DEVELOPER</p>
+        <aside className='aside'>2022-Till Date</aside>
         <p className="content">FreeLance</p>
         <ul>
-          <li>Twitter-clone</li>
-          <li>Rock-Paper-Scissors Game</li>
-          <li>Netflix-clone</li>
+          <li>Royal Suite</li>
           <li>E-commerce</li>
           <li>Calculator</li>
         </ul>
@@ -80,6 +92,8 @@ const Resume = () => {
           <li>Responsive Web Design</li>
           <li>Front-end Development Libraries</li>
           <li>React-Redux</li>
+          <li>Advance Python</li>
+          <li>SQL</li>
           
         </ul>
 

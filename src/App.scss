@@ -96,7 +96,7 @@ header{
       position: absolute;
       right: 5vw;
       padding-top: 2vh;
-      width: 7vw;
+      width: 10vw;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -114,7 +114,7 @@ header{
     overflow:none;
     position: relative;
     background-color: #e9e8e6;
-    background-image: url('/src/Components/images/white.jpg');
+    background-image: url('/src/Components/images/next.jpg');
     background-size: cover;
     text-align: center;
     main{
@@ -135,8 +135,21 @@ header{
         color: #6f6f6f;
         margin: 10px 0 0 0;
         font-size: 22px;
-        opacity: 0;
-        animation: fade 0.7s ease-in 0.45s forwards;
+        opacity: 1;
+        text-align: center;
+        overflow-y: hidden;
+        height: 4vh;
+        margin-bottom:3vh;
+        //animation: fade 0.7s ease-in 0.45s forwards;
+        span{
+          width:48vw;
+          display: inline-block;
+          overflow: hidden;
+          padding-left: 5vw;
+          border-right: 3px solid;
+          animation: typing 5s  steps(70), blink .5s step-end infinite alternate;;
+        }
+        
       }
       .about-me{
         text-transform: uppercase;
@@ -153,9 +166,10 @@ header{
         opacity: 0 ;
         animation: fade 1.2s ease-in-out 0.55s forwards;
         border-radius: 3vw;
+        transition: background-color 0.2s ease-in;
       }
-      .about:hover{
-        opacity: 0.5;
+      .about-me:hover{
+        background-color:#33e4af ;
       }
     }
     @keyframes fade {
@@ -166,6 +180,17 @@ header{
       to{
         opacity: 1;
         transform: none;
+      }
+    }
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+        
+    @keyframes blink {
+      50% {
+        border-color: transparent
       }
     }
   }
@@ -339,6 +364,14 @@ header{
     margin-top: 5vh;
     flex-direction: row;
     flex-wrap: wrap;
+    .three{
+      section{
+        .icon{
+          top: 46.8vh;
+          transform: rotate(90deg) scaleX(37.5);
+        }
+      }
+    }
     p{
       text-align: left;
       padding-left: 1vw;
@@ -361,6 +394,7 @@ header{
       margin-right:0.7vw ;
       text-align: left;
       .next-head{
+        margin-top: 20px;
         line-height: 18px;
         font-size: 18px;
         font-weight: 600;
@@ -475,7 +509,70 @@ header{
     //transform: none;
   }
 }
-@media screen and(max-width:'500px') {
+@media screen and (max-width:"1130px") {
+  .home{
+    main{
+      p{
+        span{
+          width: 60vw;
+        }
+      }
+    }
+  }
+  
+}
+// 
+@media screen and (min-width:'970px') {
+  @media screen and (max-width:"1180px") {
+    .home{
+      main{
+        p{
+          span{
+            width: 55vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:'894px') {
+  .home{
+    main{
+      p{
+        span{
+          padding-left: 6vw;
+          width: 75vw;
+        }
+      }
+    }
+  }
+  
+}
+@media screen and (min-width:'895px') {
+  @media screen and (max-width:'1077px') {
+    .home{
+      main{
+        p{
+          span{
+            padding-left: 0vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen  and (max-width:"950px") {
+  @media screen and (min-width:'520px') {
+    header{
+      .link{
+        width: 40vw;
+      }
+    }
+  }
+}
+@media screen and (max-width:'500px') {
   .domant{
     display:none;
     height: 190vh;
@@ -483,6 +580,20 @@ header{
     z-index: 2;
     width: 100vw;
     transition: display 1s ease-in;
+  }
+  .home{
+    main{
+      top: 31%;
+      p{
+        margin-bottom: 0vh;
+        span{
+          padding-left: 0vw;
+          height: 20px;
+          width: 100vw;
+          font-size: 14px;
+        }
+      }
+    }
   }
   header{
     overflow: visible;
@@ -595,12 +706,13 @@ header{
       flex-direction: column;
       section{
         width: 90vw;
-        padding-left: 5vw;
+        padding-left: 8vw;
         .circle{
           top: 0vh;
           left: -1vw;
         }
         .icon{
+          top: 21.2vh;
           transform: rotate(90deg) scaleX(16);
           left: -1vw;
         }

@@ -13,13 +13,11 @@ html {
 }
 
 .is-visible {
-  -webkit-animation: play 0.7s ease-in 0.3s forwards;
-          animation: play 0.7s ease-in 0.3s forwards;
+  animation: play 0.7s ease-in 0.3s forwards;
 }
 
 .not-visible {
-  -webkit-animation: no-play 0.4s ease-in 0.12s forwards;
-          animation: no-play 0.4s ease-in 0.12s forwards;
+  animation: no-play 0.4s ease-in 0.12s forwards;
 }
 
 header {
@@ -100,7 +98,7 @@ header .icon {
   position: absolute;
   right: 5vw;
   padding-top: 2vh;
-  width: 7vw;
+  width: 10vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -118,7 +116,7 @@ header .icon .MuiSvgIcon-root:hover {
   overflow: none;
   position: relative;
   background-color: #e9e8e6;
-  background-image: url("/src/Components/images/white.jpg");
+  background-image: url("/src/Components/images/next.jpg");
   background-size: cover;
   text-align: center;
 }
@@ -135,16 +133,25 @@ header .icon .MuiSvgIcon-root:hover {
   line-height: 56px;
   color: #222222;
   opacity: 0;
-  -webkit-animation: fade 0.7s ease-in 0.3s forwards;
-          animation: fade 0.7s ease-in 0.3s forwards;
+  animation: fade 0.7s ease-in 0.3s forwards;
 }
 .home main p {
   color: #6f6f6f;
   margin: 10px 0 0 0;
   font-size: 22px;
-  opacity: 0;
-  -webkit-animation: fade 0.7s ease-in 0.45s forwards;
-          animation: fade 0.7s ease-in 0.45s forwards;
+  opacity: 1;
+  text-align: center;
+  overflow-y: hidden;
+  height: 4vh;
+  margin-bottom: 3vh;
+}
+.home main p span {
+  width: 48vw;
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 5vw;
+  border-right: 3px solid;
+  animation: typing 5s steps(70), blink 0.5s step-end infinite alternate;
 }
 .home main .about-me {
   text-transform: uppercase;
@@ -158,22 +165,12 @@ header .icon .MuiSvgIcon-root:hover {
   padding: 1vh 2vw;
   border: none;
   opacity: 0;
-  -webkit-animation: fade 1.2s ease-in-out 0.55s forwards;
-          animation: fade 1.2s ease-in-out 0.55s forwards;
+  animation: fade 1.2s ease-in-out 0.55s forwards;
   border-radius: 3vw;
+  transition: background-color 0.2s ease-in;
 }
-.home main .about:hover {
-  opacity: 0.5;
-}
-@-webkit-keyframes fade {
-  from {
-    opacity: 0;
-    transform: translateY(-50%);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
+.home main .about-me:hover {
+  background-color: #33e4af;
 }
 @keyframes fade {
   from {
@@ -185,16 +182,24 @@ header .icon .MuiSvgIcon-root:hover {
     transform: none;
   }
 }
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 
 .about-all {
   text-align: center;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   opacity: 0;
-  -webkit-animation: play 1.2s ease-in 0.3s forwards;
-          animation: play 1.2s ease-in 0.3s forwards;
+  animation: play 1.2s ease-in 0.3s forwards;
 }
 .about-all .span {
   position: relative;
@@ -332,8 +337,7 @@ header .icon .MuiSvgIcon-root:hover {
   padding: 0 8vw;
   text-align: center;
   opacity: 0;
-  -webkit-animation: play 1.2s ease-in 0.3s forwards;
-          animation: play 1.2s ease-in 0.3s forwards;
+  animation: play 1.2s ease-in 0.3s forwards;
 }
 .resumex h1 {
   position: relative;
@@ -363,6 +367,10 @@ header .icon .MuiSvgIcon-root:hover {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.resumex main .three section .icon {
+  top: 46.8vh;
+  transform: rotate(90deg) scaleX(37.5);
+}
 .resumex main p {
   text-align: left;
   padding-left: 1vw;
@@ -388,6 +396,7 @@ header .icon .MuiSvgIcon-root:hover {
   text-align: left;
 }
 .resumex main section .next-head {
+  margin-top: 20px;
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -442,8 +451,7 @@ header .icon .MuiSvgIcon-root:hover {
   padding-top: 2vh;
   padding-left: 3vw;
   opacity: 0;
-  -webkit-animation: play 0.7s ease-in 0.3s forwards;
-          animation: play 0.7s ease-in 0.3s forwards;
+  animation: play 0.7s ease-in 0.3s forwards;
   display: flex;
   flex-direction: row;
   border-top: 1px solid grey;
@@ -478,17 +486,6 @@ header .icon .MuiSvgIcon-root:hover {
   transform: scale(1.05);
 }
 
-@-webkit-keyframes play {
-  from {
-    opacity: 0;
-    transform: translateY(10vh);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
 @keyframes play {
   from {
     opacity: 0;
@@ -499,14 +496,35 @@ header .icon .MuiSvgIcon-root:hover {
     transform: none;
   }
 }
-@-webkit-keyframes no-play {
+@keyframes no-play {
   to {
     opacity: 0;
   }
 }
-@keyframes no-play {
-  to {
-    opacity: 0;
+@media screen and (max-width: 1130px) {
+  .home main p span {
+    width: 60vw;
+  }
+}
+@media screen and (min-width: 970px) and (max-width: 1180px) {
+  .home main p span {
+    width: 55vw;
+  }
+}
+@media screen and (max-width: 894px) {
+  .home main p span {
+    padding-left: 6vw;
+    width: 75vw;
+  }
+}
+@media screen and (min-width: 895px) and (max-width: 1077px) {
+  .home main p span {
+    padding-left: 0vw;
+  }
+}
+@media screen and (max-width: 950px) and (min-width: 520px) {
+  header .link {
+    width: 40vw;
   }
 }
 @media screen and (max-width: 500px) {
@@ -517,6 +535,18 @@ header .icon .MuiSvgIcon-root:hover {
     z-index: 2;
     width: 100vw;
     transition: display 1s ease-in;
+  }
+  .home main {
+    top: 31%;
+  }
+  .home main p {
+    margin-bottom: 0vh;
+  }
+  .home main p span {
+    padding-left: 0vw;
+    height: 20px;
+    width: 100vw;
+    font-size: 14px;
   }
   header {
     overflow: visible;
@@ -623,13 +653,14 @@ header .icon .MuiSvgIcon-root:hover {
   }
   .resumex main section {
     width: 90vw;
-    padding-left: 5vw;
+    padding-left: 8vw;
   }
   .resumex main section .circle {
     top: 0vh;
     left: -1vw;
   }
   .resumex main section .icon {
+    top: 21.2vh;
     transform: rotate(90deg) scaleX(16);
     left: -1vw;
   }

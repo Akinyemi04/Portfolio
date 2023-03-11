@@ -11,7 +11,7 @@ const Home = () => {
     <div className='home' >
       <main>
         <h1>Akinyemi Gabriel</h1>
-        <p>i'm a professional Front-end Developer </p>
+        <p><span>A Developer Who Values User Interface And Experience</span> </p>
         <NavLink to='/about' onClick={open} className='about-me'> About me</NavLink>
       </main>
     </div>

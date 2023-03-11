@@ -2,8 +2,7 @@
   text-align: center;
   padding: 0 8vw;
   opacity: 0;
-  -webkit-animation: play 0.7s ease-in 0.3s forwards;
-          animation: play 0.7s ease-in 0.3s forwards;
+  animation: play 0.7s ease-in 0.3s forwards;
 }
 .portfo h1 {
   position: relative;
@@ -72,17 +71,6 @@
 }
 .portfo main section a:hover {
   opacity: 0.5;
-}
-
-@-webkit-keyframes play {
-  from {
-    opacity: 0;
-    transform: translateY(10vh);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 @keyframes play {

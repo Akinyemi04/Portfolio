@@ -67,7 +67,7 @@ const About = () => {
               <p><span className='coin'>Freelance:</span><span> Available</span></p>
             </div>
             <p className='rigor'>
-            I take my work as a Web Developer seriously and  ensure my skills are kept up to date within this rapidly changing industry. I will always put the  needs of every projects at the forefront of everything I do, and the work I carry out is  consistent to a first-class standard
+            I take my work as a  Developer seriously and  ensure my skills are kept up to date within this rapidly changing industry. I will always put the  needs of every projects at the forefront of everything I do, and the work I carry out is  consistent to a first-class standard
             </p>
           </aside>
           </section>

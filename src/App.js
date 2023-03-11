@@ -77,11 +77,9 @@ useEffect(()=>{
       next= next.nextElementSibling
     }
     let previous = data.previousElementSibling
-    console.log(previous)
     
     while(previous !== null){
       previous.removeAttribute('id')
-      console.log(previous)
       previous= previous.previousElementSibling
     }
     if(screen_size < '501')
