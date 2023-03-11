@@ -660,7 +660,6 @@ header .icon .MuiSvgIcon-root:hover {
     left: -1vw;
   }
   .resumex main section .icon {
-    top: 21.2vh;
     transform: rotate(90deg) scaleX(16);
     left: -1vw;
   }
@@ -675,5 +674,8 @@ header .icon .MuiSvgIcon-root:hover {
   }
   .resumex main .three {
     order: 4;
+  }
+  .resumex main .three section .icon {
+    top: 40.8vh;
   }
 }/*# sourceMappingURL=App.css.map */

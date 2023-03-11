@@ -712,7 +712,6 @@ header{
           left: -1vw;
         }
         .icon{
-          top: 21.2vh;
           transform: rotate(90deg) scaleX(16);
           left: -1vw;
         }
@@ -728,6 +727,11 @@ header{
       }
       .three{
         order: 4;
+        section{
+          .icon{
+            top: 40.8vh;
+          }
+        }
       }
     }
   }
