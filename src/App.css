@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@100&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=League+Spartan:wght@500;700;800&family=Public+Sans:ital,wght@0,300;0,700;1,400&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0 0;
   margin: 0 0;
@@ -6,6 +7,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -138,11 +140,11 @@ header .icon .MuiSvgIcon-root:hover {
 .home main p {
   color: #6f6f6f;
   margin: 10px 0 0 0;
-  font-size: 22px;
+  font-size: 19px;
   opacity: 1;
   text-align: center;
   overflow-y: hidden;
-  height: 4vh;
+  height: 3.5vh;
   margin-bottom: 3vh;
 }
 .home main p span {

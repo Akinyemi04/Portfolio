@@ -13,6 +13,7 @@ import countdown from './images/countdown.png'
 import jobber from './images/jobberman.png'
 import ecommerce from './images/e-commerce-2.png'
 import home_page from './images/room-page.png'
+import lendsqr from './images/lendsqr.png'
 const Portfolio = () => {
   return (
     <div className='portfo'>
@@ -20,6 +21,10 @@ const Portfolio = () => {
       <p className='content'>Projects  which i have worked on can be viewed below to better access the webapp  please click the buttons underneath them  and You'll be redirected to the webapp</p>
       <span>App</span>
       <main>
+        <section>
+          <img src={lendsqr} alt="" />
+          <a href="https://akinyemi-gabriel-lendsqr-fe-test.netlify.app/">Lendsqr</a>
+        </section>
       <section>
           <img src={ecommerce} alt="" />
           <a href="https://elegant-commercial.netlify.app/">E-commerce</a>
