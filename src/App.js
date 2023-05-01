@@ -90,7 +90,7 @@ useEffect(()=>{
   return (
     <BrowserRouter>
       <header className="App">
-        <span>Gabriel</span>
+        <span className='name'>Gabriel</span>
         <div style={{display:status}} className="domant">
           <div className='link'>
             <ClearIcon className='clear' onClick={
@@ -98,7 +98,7 @@ useEffect(()=>{
                 Dispatch(contact.unchange())
               }
             }/>
-            <NavLink  onClick={click} id='header' className='to-link' to='/'>Home</NavLink >
+            <NavLink  onClick={click} id='header' className='to-link homer' to='/'>Home</NavLink >
             <NavLink onClick={click} className='to-link about' to='/about'>About</NavLink >
             <NavLink onClick={click} className='to-link resume' to='/resume'>Resume</NavLink >
             {/* <NavLink onClick={click} className='to-link services' to='/services'>Services</NavLink> */}
@@ -107,9 +107,9 @@ useEffect(()=>{
           </div>
         </div>
         <section className='icon'>
-          <a  style={{color:'black'}} href='https://twitter.com/alphamhale/'><TwitterIcon/></a>
-          <a style={{color:'black'}} href='https://www.instagram.com/alpha_mhalee'><InstagramIcon/></a>
-          <a style={{color:'black'}} href='https://www.linkedin.com/in/gabriel-akinyemi-2362b0232/'><LinkedInIcon/></a>
+          <a className='twitter' style={{color:'black'}} href='https://twitter.com/alphamhale/'><TwitterIcon/></a>
+          <a className='instagram' style={{color:'black'}} href='https://www.instagram.com/alpha_mhalee'><InstagramIcon/></a>
+          <a className='linkedin' style={{color:'black'}} href='https://www.linkedin.com/in/gabriel-akinyemi-2362b0232/'><LinkedInIcon/></a>
         </section>
         <DensityMediumIcon className='none'onClick={
               ()=>{
