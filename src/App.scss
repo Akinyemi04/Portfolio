@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@100&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=League+Spartan:wght@500;700;800&family=Public+Sans:ital,wght@0,300;0,700;1,400&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
-
+// @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@100&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=League+Spartan:wght@500;700;800&family=Public+Sans:ital,wght@0,300;0,700;1,400&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@100&family=Figtree:wght@300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=League+Spartan:wght@500;700;800&family=Public+Sans:ital,wght@0,300;0,700;1,400&family=Roboto&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,900&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0 0;
   margin: 0 0;
@@ -7,7 +7,7 @@
 }
 body {
   overflow-x: hidden;
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -33,7 +33,7 @@ header {
   padding: 2.8vh 0;
   box-shadow: 1px 4px 25px rgb(0 0 0 / 8%);
   opacity: 0;
-  animation: opaque 0.5s linear  forwards;
+  animation: opaque 0.5s linear forwards;
   z-index: 1;
   span {
     position: absolute;
@@ -149,7 +149,7 @@ header {
   background-image: url("/src/Components/images/next.jpg");
   background-size: cover;
   text-align: center;
-  opacity: 0 ;
+  opacity: 0;
   animation: opaque 0.5s linear 0.4s forwards;
   main {
     position: absolute;
@@ -184,7 +184,9 @@ header {
         // padding-left: 5vw;
         border-right: 3px solid;
         opacity: 0;
-        animation: typing 5s steps(70) 2.2s, blink 0.5s step-end 2.2s infinite alternate,opaque 1s linear 2.2s forwards;
+        animation: typing 5s steps(70) 2.2s,
+          blink 0.5s step-end 2.2s infinite alternate,
+          opaque 1s linear 2.2s forwards;
       }
     }
     .about-me {
@@ -211,11 +213,11 @@ header {
     }
   }
   @keyframes opaque {
-    from{
-      opacity:0;
+    from {
+      opacity: 0;
     }
-    to{
-      opacity:1;
+    to {
+      opacity: 1;
     }
   }
   @keyframes fade {
@@ -285,6 +287,7 @@ header {
     margin-left: 8vw;
     font-size: large;
     font-weight: 400;
+    font-style: italic;
   }
   section {
     margin-top: 3.3vh;
@@ -328,12 +331,13 @@ header {
           width: 20vw;
           .coin {
             font-size: large;
-            font-weight: 500;
+            font-weight: 600;
           }
         }
       }
       p {
         text-align: left;
+        font-style: italic;
       }
     }
   }
@@ -632,7 +636,7 @@ header {
   .home {
     main {
       top: 31%;
-      h1{
+      h1 {
         font-size: 38px;
       }
       p {
@@ -662,21 +666,21 @@ header {
       justify-content: flex-start;
       flex-direction: column;
       transition: display 0.8s ease-in;
-      .homer{
-        animation: pop 1s linear 0.0s forwards;
+      .homer {
+        animation: pop 1s linear 0s forwards;
       }
-      .about{
+      .about {
         animation: pop 1s ease-in 0.3s forwards;
       }
-      .resume{
+      .resume {
         animation: pop 1s ease-in 0.4s forwards;
       }
-    .portfolio{
-      animation: pop 1s ease-in 0.5s forwards;
-    }
-    .contact{
-      animation: pop 1s ease-in 0.6s forwards;
-    }
+      .portfolio {
+        animation: pop 1s ease-in 0.5s forwards;
+      }
+      .contact {
+        animation: pop 1s ease-in 0.6s forwards;
+      }
       .to-link {
         display: inline-block;
         width: 7vw;

@@ -1,7 +1,7 @@
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import deep from './Components/images/deep.jpeg'
 import Mini from './Components/Mini'
-
+import me from './Components/images/important1.jpg'
 
 const About = () => {
 
@@ -13,7 +13,7 @@ const About = () => {
             <p className='pin'>A web developer with a strong eye for innovative design and a keen understanding of techniques geared
     towards optimum user experience</p>
         <section>
-          <img src={deep} alt="error" />
+          <img src={me} alt="error" />
           <aside>
             <h2> Web Developer & Designer</h2>
             <span>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@100&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=League+Spartan:wght@500;700;800&family=Public+Sans:ital,wght@0,300;0,700;1,400&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@100&family=Figtree:wght@300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=League+Spartan:wght@500;700;800&family=Public+Sans:ital,wght@0,300;0,700;1,400&family=Roboto&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,900&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0 0;
   margin: 0 0;
@@ -7,7 +7,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Serif Pro", sans-serif;
 }
 
 html {
@@ -287,6 +287,7 @@ header .icon .MuiSvgIcon-root:hover {
   margin-left: 8vw;
   font-size: large;
   font-weight: 400;
+  font-style: italic;
 }
 .about-all section {
   margin-top: 3.3vh;
@@ -337,10 +338,11 @@ header .icon .MuiSvgIcon-root:hover {
 }
 .about-all section aside .info p .coin {
   font-size: large;
-  font-weight: 500;
+  font-weight: 600;
 }
 .about-all section aside p {
   text-align: left;
+  font-style: italic;
 }
 
 .mini {
