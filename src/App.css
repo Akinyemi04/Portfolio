@@ -682,8 +682,6 @@ header .icon .MuiSvgIcon-root:hover {
   margin-top: 18vh;
   padding-top: 2vh;
   padding-left: 3vw;
-  opacity: 0;
-  animation: displayer 0.7s ease-in 0.3s forwards;
   display: flex;
   flex-direction: row;
   border-top: 1px solid grey;
@@ -700,6 +698,7 @@ header .icon .MuiSvgIcon-root:hover {
   transition: transform 0.5s ease;
   text-decoration: none;
   position: relative;
+  opacity: 0;
 }
 .contact-me a p {
   margin-top: 3vh;
@@ -714,10 +713,36 @@ header .icon .MuiSvgIcon-root:hover {
 .contact-me a .instagram {
   color: rgb(230, 122, 127);
 }
+.contact-me :nth-child(1) {
+  animation: contact-anime 1s linear 0.4s forwards;
+}
+.contact-me :nth-child(2) {
+  animation: contact-anime 1s linear 0.6s forwards;
+}
+.contact-me :nth-child(3) {
+  animation: contact-anime 1s linear 0.8s forwards;
+}
+.contact-me :nth-child(4) {
+  animation: contact-anime 1s linear 1s forwards;
+}
+.contact-me :nth-child(5) {
+  animation: contact-anime 1s linear 1.2s forwards;
+}
+.contact-me :nth-child(6) {
+  animation: contact-anime 1s linear 1.4s forwards;
+}
 .contact-me a:hover {
   transform: scale(1.05);
 }
 
+@keyframes contact-anime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @keyframes displayer {
   from {
     opacity: 0;

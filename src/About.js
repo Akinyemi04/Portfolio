@@ -17,7 +17,7 @@ const About = () => {
           <aside>
             <h2> Web Developer & Designer</h2>
             <span>
-            I am a positive, enthusiastic and competent Web Developer who, over time, has built up a diverse range of skills, qualities and attributes that guarantee best performance and quality.
+                A competent and  enthusiastic  Web Developer who, over time, has built up a diverse range of skills, qualities and attributes that guarantee best performance and quality.
             </span>
             <div className='info'>
               <p><span className='coin'>Phone:</span><span> +2348039827644</span></p>
@@ -27,7 +27,7 @@ const About = () => {
               <p><span className='coin'>Freelance:</span><span> Available</span></p>
             </div>
             <p className='rigor'>
-            I take my work as a  Developer seriously and  ensure my skills are kept up to date within this rapidly changing industry. I will always put the  needs of every projects at the forefront of everything I do, and the work I carry out is  consistent to a first-class standard
+            As a frontend developer with expertise in React, I excel at building intuitive and dynamic user interfaces. My skills include creating reusable components, managing state effectively, and integrating with backend APIs. I have a strong understanding of HTML, CSS, and JavaScript, and I work collaboratively with designers and developers to deliver high-quality web applications that meet user needs.
             </p>
           </aside>
           </section>
