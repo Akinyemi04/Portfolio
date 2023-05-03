@@ -76,7 +76,7 @@ integration for full network flow</li>
         <ul>
           <li>Royal Suite</li>
           <li>E-commerce</li>
-          <li>Calculator</li>
+          <li>Jobber-Man</li>
         </ul>
 
       </section>

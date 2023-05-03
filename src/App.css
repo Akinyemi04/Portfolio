@@ -14,12 +14,157 @@ html {
   scroll-behavior: smooth;
 }
 
-.is-visible {
-  animation: play 0.7s ease-in 0.3s forwards;
+@keyframes texter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes hidden {
+  to {
+    opacity: 0;
+  }
+}
+.is-visible .mini section div p .value {
+  animation: texter 0.2s 3.1s forwards;
+}
+.is-visible .mini .bar .javascript {
+  animation: java 3s 0.3s forwards;
+}
+.is-visible .mini .bar .html {
+  animation: html 3s 0.3s forwards;
+}
+.is-visible .mini .bar .css {
+  animation: java 3s 0.3s forwards;
+}
+.is-visible .mini .bar .react {
+  animation: react 3s 0.3s forwards;
+}
+.is-visible .mini .bar .sass {
+  animation: sass 3s 0.3s forwards;
+}
+.is-visible .mini .bar .python {
+  animation: python 3s 0.3s forwards;
+}
+.is-visible .mini .bar .jquery {
+  animation: jquery 3s 0.3s forwards;
+}
+.is-visible .mini .bar .redux {
+  animation: redux 3s 0.3s forwards;
+}
+.is-visible .mini .bar .git {
+  animation: git 3s 0.3s forwards;
+}
+.is-visible .mini .bar .responsive_web {
+  animation: responsive 3s 0.3s forwards;
+}
+.is-visible .mini .bar .graphql {
+  animation: graphql 3s 0.3s forwards;
+}
+.is-visible .mini .bar .restful_api {
+  animation: restful 3s 0.3s forwards;
 }
 
+@keyframes restful {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes graphql {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes responsive {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 95%;
+  }
+}
+@keyframes git {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 73%;
+  }
+}
+@keyframes redux {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes jquery {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;
+  }
+}
+@keyframes python {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes sass {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes react {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 75%;
+  }
+}
+@keyframes css {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+@keyframes html {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 82%;
+  }
+}
+@keyframes java {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 75%;
+  }
+}
 .not-visible {
-  animation: no-play 0.4s ease-in 0.12s forwards;
+  animation: hidden 0.2s ease-in forwards;
 }
 
 header {
@@ -55,11 +200,9 @@ header span {
 }
 header .link {
   display: flex;
-  margin-left: 8vw;
   padding-top: 2vh;
   flex-direction: row;
-  width: 30vw;
-  justify-content: space-between;
+  gap: 35px;
 }
 header .link .to-link {
   position: relative;
@@ -184,12 +327,13 @@ header .icon .MuiSvgIcon-root:hover {
   animation: opaque 0.5s linear 1.9s forwards;
 }
 .home main p span {
-  width: 48vw;
+  width: 90vw;
+  max-width: 500px;
   display: inline-block;
   overflow: hidden;
   border-right: 3px solid;
   opacity: 0;
-  animation: typing 5s steps(70) 2.2s, blink 0.5s step-end 2.2s infinite alternate, opaque 1s linear 2.2s forwards;
+  animation: typing 5s steps(200) 2.2s, blink 0.5s step-end 2.2s infinite alternate, opaque 1s linear 2.2s forwards;
 }
 .home main .about-me {
   text-transform: uppercase;
@@ -200,7 +344,7 @@ header .icon .MuiSvgIcon-root:hover {
   text-decoration: none;
   background-color: #34b7a7;
   width: 8vw;
-  padding: 1vh 2vw;
+  padding: 1vh 23px;
   border: none;
   opacity: 0;
   opacity: 0;
@@ -259,8 +403,6 @@ header .icon .MuiSvgIcon-root:hover {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  opacity: 0;
-  animation: play 1.2s ease-in 0.3s forwards;
 }
 .about-all .span {
   position: relative;
@@ -285,7 +427,7 @@ header .icon .MuiSvgIcon-root:hover {
   width: 80vw;
   margin-top: 7vh;
   margin-left: 8vw;
-  font-size: large;
+  font-size: 17px;
   font-weight: 400;
   font-style: italic;
 }
@@ -322,7 +464,7 @@ header .icon .MuiSvgIcon-root:hover {
   text-align: left;
   margin-top: 2vh;
   font-style: italic;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
 }
 .about-all section aside .info {
@@ -334,6 +476,7 @@ header .icon .MuiSvgIcon-root:hover {
   text-align: left;
   margin: 1.5vh;
   margin-left: 1vw;
+  white-space: nowrap;
   width: 20vw;
 }
 .about-all section aside .info p .coin {
@@ -347,6 +490,7 @@ header .icon .MuiSvgIcon-root:hover {
 
 .mini {
   margin-top: 8vh;
+  margin-bottom: 8vh;
   padding: 0 3vw;
   overflow-x: hidden;
   text-align: center;
@@ -357,10 +501,35 @@ header .icon .MuiSvgIcon-root:hover {
   font-size: 25px;
   display: inline-block;
 }
+.mini .bar {
+  background-color: #e6e7e8;
+  display: block;
+  height: 15px;
+  border: 1px solid rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.mini .bar span {
+  height: 14px;
+  float: left;
+  background-color: #53c4b7;
+  border-radius: 10px;
+}
 .mini meter {
   display: block;
   width: inherit;
   height: 3.3vh;
+}
+.mini .meter_animation {
+  animation: meter-fill 5s ease-out infinite forwards;
+}
+@keyframes meter-fill {
+  from {
+    value: 0;
+  }
+  to {
+    value: 75;
+  }
 }
 .mini h3::after {
   position: absolute;
@@ -394,13 +563,12 @@ header .icon .MuiSvgIcon-root:hover {
 }
 .mini section div p .value {
   float: right;
+  opacity: 0;
 }
 
 .resumex {
   padding: 0 8vw;
   text-align: center;
-  opacity: 0;
-  animation: play 1.2s ease-in 0.3s forwards;
 }
 .resumex h1 {
   position: relative;
@@ -505,6 +673,7 @@ header .icon .MuiSvgIcon-root:hover {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .contact-me {
@@ -514,7 +683,7 @@ header .icon .MuiSvgIcon-root:hover {
   padding-top: 2vh;
   padding-left: 3vw;
   opacity: 0;
-  animation: play 0.7s ease-in 0.3s forwards;
+  animation: displayer 0.7s ease-in 0.3s forwards;
   display: flex;
   flex-direction: row;
   border-top: 1px solid grey;
@@ -549,7 +718,7 @@ header .icon .MuiSvgIcon-root:hover {
   transform: scale(1.05);
 }
 
-@keyframes play {
+@keyframes displayer {
   from {
     opacity: 0;
     transform: translateY(10vh);
@@ -564,30 +733,26 @@ header .icon .MuiSvgIcon-root:hover {
     opacity: 0;
   }
 }
-@media screen and (max-width: 1130px) {
-  .home main p span {
-    width: 60vw;
+@media screen and (max-width: 943px) {
+  .about-all section aside .info p {
+    white-space: break-spaces;
   }
 }
-@media screen and (min-width: 970px) and (max-width: 1180px) {
-  .home main p span {
-    width: 55vw;
+@media screen and (min-width: 500px) and (max-width: 625px) {
+  header {
+    justify-content: space-between;
   }
-}
-@media screen and (max-width: 894px) {
-  .home main p span {
-    padding-left: 6vw;
-    width: 75vw;
-  }
-}
-@media screen and (min-width: 895px) and (max-width: 1077px) {
-  .home main p span {
-    padding-left: 0vw;
-  }
-}
-@media screen and (max-width: 950px) and (min-width: 520px) {
   header .link {
-    width: 40vw;
+    gap: 10px;
+  }
+  header span {
+    position: relative;
+    margin-left: 0;
+  }
+  header .icon {
+    right: 0vw;
+    position: relative;
+    width: auto;
   }
 }
 @media screen and (max-width: 500px) {
@@ -612,6 +777,7 @@ header .icon .MuiSvgIcon-root:hover {
     padding-left: 0vw;
     height: 19px;
     width: 100vw;
+    max-width: 380px;
     font-size: 14px;
   }
   header {
@@ -706,6 +872,9 @@ header .icon .MuiSvgIcon-root:hover {
   }
   .about-all section aside .info {
     flex-direction: column;
+  }
+  .about-all section aside .info p {
+    white-space: nowrap;
   }
   .about-all section aside .rigor {
     margin-top: 2vh;

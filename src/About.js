@@ -34,7 +34,7 @@ const About = () => {
           
         </div>
   
-    <AnimationOnScroll  animateIn='is-visible'  animateOut='not-visible'>
+    <AnimationOnScroll animateOnce='true'  animateIn='is-visible'  animateOut='not-visible'>
       <Mini/>
     </AnimationOnScroll>
     </>
