@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@100&family=Figtree:wght@300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=League+Spartan:wght@500;700;800&family=Public+Sans:ital,wght@0,300;0,700;1,400&family=Roboto&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,900&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0 0;
@@ -13,65 +12,65 @@ html {
   scroll-behavior: smooth;
 }
 @keyframes texter {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
 @keyframes hidden {
-  to{
+  to {
     opacity: 0;
   }
 }
 .is-visible {
   // animation:displayer 0.7s ease-in 0.3s forwards;
-  .mini{
-    section{
-      div{
-        p{
-          .value{
-            animation:texter 0.2s 3.1s forwards;
+  .mini {
+    section {
+      div {
+        p {
+          .value {
+            animation: texter 0.2s 3.1s forwards;
           }
         }
       }
     }
-    .bar{
-      .javascript{
+    .bar {
+      .javascript {
         animation: java 3s 0.3s forwards;
       }
-      .html{
+      .html {
         animation: html 3s 0.3s forwards;
       }
-      .css{
+      .css {
         animation: java 3s 0.3s forwards;
       }
-      .react{
+      .react {
         animation: react 3s 0.3s forwards;
       }
-      .sass{
+      .sass {
         animation: sass 3s 0.3s forwards;
       }
-      .python{
+      .python {
         animation: python 3s 0.3s forwards;
       }
-      .jquery{
+      .jquery {
         animation: jquery 3s 0.3s forwards;
       }
-      .redux{
+      .redux {
         animation: redux 3s 0.3s forwards;
       }
-      .git{
+      .git {
         animation: git 3s 0.3s forwards;
       }
-      .responsive_web{
+      .responsive_web {
         animation: responsive 3s 0.3s forwards;
       }
-      .graphql{
+      .graphql {
         animation: graphql 3s 0.3s forwards;
       }
-      .restful_api{
+      .restful_api {
         animation: restful 3s 0.3s forwards;
       }
     }
@@ -79,104 +78,104 @@ html {
 }
 
 @keyframes restful {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 80%;
   }
 }
 @keyframes graphql {
-  from{
+  from {
     width: 0%;
   }
-  to{
-     width: 50%;;
+  to {
+    width: 50%;
   }
 }
 
 @keyframes responsive {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 95%;
   }
 }
 @keyframes git {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 73%;
   }
 }
 @keyframes redux {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 70%;
   }
 }
 @keyframes jquery {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 40%;
   }
 }
 @keyframes python {
-  from{
+  from {
     width: 0%;
   }
-  to{
-    width:50%;
+  to {
+    width: 50%;
   }
 }
 @keyframes sass {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 80%;
   }
 }
 @keyframes react {
-  from{
+  from {
     width: 0%;
   }
-  to{
-    width:75%;
+  to {
+    width: 75%;
   }
 }
 @keyframes css {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 85%;
   }
 }
 @keyframes html {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 82%;
   }
 }
 @keyframes java {
-  from{
+  from {
     width: 0%;
   }
-  to{
+  to {
     width: 75%;
   }
 }
 .not-visible {
-  animation: hidden 0.2s ease-in  forwards;
+  animation: hidden 0.2s ease-in forwards;
 }
 header {
   overflow: hidden;
@@ -333,18 +332,68 @@ header {
       overflow-y: hidden;
       height: 3.5vh;
       margin-bottom: 3vh;
-      animation: opaque 0.5s linear 1.9s forwards;
+      transform: scale(0.94);
+      animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+      
+      :nth-child(1) {
+        animation: fade-in 0.8s 2.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(2) {
+        animation: fade-in 0.8s 2.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(3) {
+        animation: fade-in 0.8s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(4) {
+        animation: fade-in 0.8s 2.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(5) {
+        animation: fade-in 0.8s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(6) {
+        animation: fade-in 0.8s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(7) {
+        animation: fade-in 0.8s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(8) {
+        animation: fade-in 0.8s 2.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(9) {
+        animation: fade-in 0.8s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(10) {
+        animation: fade-in 0.8s 3.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+      
+      :nth-child(11) {
+        animation: fade-in 0.8s 3.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+      }
+    }
       span {
-        width: 90vw;
-        max-width: 500px;
         display: inline-block;
-        overflow: hidden;
-        // padding-left: 5vw;
-        border-right: 3px solid;
         opacity: 0;
-        animation: typing 5s steps(200) 2.2s,
-          blink 0.5s step-end 2.2s infinite alternate,
-          opaque 1s linear 2.2s forwards;
+        filter: blur(4px);
+        margin-right: 2px;
+    }
+    @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+    @keyframes scale {
+      100% {
+        transform: scale(1);
       }
     }
     .about-me {
@@ -514,23 +563,19 @@ header {
     font-size: 25px;
     display: inline-block;
   }
-  .bar{
+  .bar {
     background-color: #e6e7e8;
     display: block;
     height: 15px;
     border: 1px solid rgba(217, 217, 217, 0.1);
     border-radius: 10px;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    span{
+    span {
       height: 14px;
       float: left;
       background-color: #53c4b7;
-      
+
       border-radius: 10px;
-    }
-    .javascript{
-      // width: 75%;
-      // animation: javascript 3s;
     }
   }
   meter {
@@ -538,15 +583,15 @@ header {
     width: inherit;
     height: 3.3vh;
   }
-  .meter_animation{
+  .meter_animation {
     animation: meter-fill 5s ease-out infinite forwards;
   }
   @keyframes meter-fill {
-    from{
-      value:0
+    from {
+      value: 0;
     }
-    to{
-      value:75
+    to {
+      value: 75;
     }
   }
   h3::after {
@@ -731,33 +776,33 @@ header {
       color: rgb(230, 122, 127);
     }
   }
-  :nth-child(1){
-    animation:contact-anime 1s linear 0.4s forwards ;
+  :nth-child(1) {
+    animation: contact-anime 1s linear 0.4s forwards;
   }
-  :nth-child(2){
-    animation:contact-anime 1s linear 0.6s forwards ;
+  :nth-child(2) {
+    animation: contact-anime 1s linear 0.6s forwards;
   }
-  :nth-child(3){
-    animation:contact-anime 1s linear 0.8s forwards ;
+  :nth-child(3) {
+    animation: contact-anime 1s linear 0.8s forwards;
   }
-  :nth-child(4){
-    animation:contact-anime 1s linear 1s forwards ;
+  :nth-child(4) {
+    animation: contact-anime 1s linear 1s forwards;
   }
-  :nth-child(5){
-    animation:contact-anime 1s linear 1.2s forwards ;
+  :nth-child(5) {
+    animation: contact-anime 1s linear 1.2s forwards;
   }
-  :nth-child(6){
-    animation:contact-anime 1s linear 1.4s forwards ;
+  :nth-child(6) {
+    animation: contact-anime 1s linear 1.4s forwards;
   }
   a:hover {
     transform: scale(1.05);
   }
 }
 @keyframes contact-anime {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
@@ -779,32 +824,31 @@ header {
   }
 }
 
-@media screen and (max-width:'943px') {
-  .about-all{
-    section{
-      aside{
-        .info{
-          p{
-            white-space:break-spaces ;
+@media screen and (max-width: "943px") {
+  .about-all {
+    section {
+      aside {
+        .info {
+          p {
+            white-space: break-spaces;
           }
         }
       }
     }
   }
-  
 }
-@media screen and (min-width:'500px') and (max-width:'625px') {
-  header{
-    justify-content:space-between;
-    .link{
+@media screen and (min-width: "500px") and (max-width: "625px") {
+  header {
+    justify-content: space-between;
+    .link {
       gap: 10px;
     }
-    span{
+    span {
       position: relative;
       margin-left: 0;
     }
-    .icon{
-      right:0vw;
+    .icon {
+      right: 0vw;
       position: relative;
       width: auto;
     }
@@ -830,8 +874,6 @@ header {
         margin-bottom: 0vh;
         span {
           padding-left: 0vw;
-          height: 19px;
-          width: 100vw;
           max-width: 380px;
           font-size: 14px;
         }
@@ -859,16 +901,16 @@ header {
         animation: pop 1s linear 0s forwards;
       }
       .about {
-        animation: pop 1s ease-in 0.3s forwards;
+        animation: pop 1s ease-in 0.1s forwards;
       }
       .resume {
-        animation: pop 1s ease-in 0.4s forwards;
+        animation: pop 1s ease-in 0.2s forwards;
       }
       .portfolio {
-        animation: pop 1s ease-in 0.5s forwards;
+        animation: pop 1s ease-in 0.3s forwards;
       }
       .contact {
-        animation: pop 1s ease-in 0.6s forwards;
+        animation: pop 1s ease-in 0.4s forwards;
       }
       .to-link {
         display: inline-block;
@@ -889,7 +931,7 @@ header {
       position: absolute;
       right: 13vw;
       width: 25vw;
-      animation: pop 1s ease-in 0.8s forwards;
+      animation: pop 1s linear  0.8s forwards;
     }
     .none {
       display: inline-block;
@@ -931,7 +973,7 @@ header {
         }
         .info {
           flex-direction: column;
-          p{
+          p {
             white-space: nowrap;
           }
         }
