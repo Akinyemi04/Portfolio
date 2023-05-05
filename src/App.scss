@@ -383,7 +383,7 @@ header {
         display: inline-block;
         opacity: 0;
         filter: blur(4px);
-        margin-right: 2px;
+        margin-right: 5px;
     }
     @keyframes fade-in {
     100% {
@@ -876,6 +876,7 @@ header {
           padding-left: 0vw;
           max-width: 380px;
           font-size: 14px;
+          margin-right: 3px;
         }
       }
     }
