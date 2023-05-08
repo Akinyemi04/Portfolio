@@ -25,7 +25,6 @@ html {
   }
 }
 .is-visible {
-  // animation:displayer 0.7s ease-in 0.3s forwards;
   .mini {
     section {
       div {
@@ -899,19 +898,19 @@ header {
       flex-direction: column;
       transition: display 0.8s ease-in;
       .homer {
-        animation: pop 1s linear 0s forwards;
+        animation: pop 0.4s linear 0s forwards;
       }
       .about {
-        animation: pop 1s ease-in 0.1s forwards;
+        animation: pop 0.4s ease-in 0.1s forwards;
       }
       .resume {
-        animation: pop 1s ease-in 0.2s forwards;
+        animation: pop 0.4s ease-in 0.2s forwards;
       }
       .portfolio {
-        animation: pop 1s ease-in 0.3s forwards;
+        animation: pop 0.4s ease-in 0.3s forwards;
       }
       .contact {
-        animation: pop 1s ease-in 0.4s forwards;
+        animation: pop 0.4s ease-in 0.4s forwards;
       }
       .to-link {
         display: inline-block;

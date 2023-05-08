@@ -866,19 +866,19 @@ header .icon .MuiSvgIcon-root:hover {
     transition: display 0.8s ease-in;
   }
   header .link .homer {
-    animation: pop 1s linear 0s forwards;
+    animation: pop 0.4s linear 0s forwards;
   }
   header .link .about {
-    animation: pop 1s ease-in 0.1s forwards;
+    animation: pop 0.4s ease-in 0.1s forwards;
   }
   header .link .resume {
-    animation: pop 1s ease-in 0.2s forwards;
+    animation: pop 0.4s ease-in 0.2s forwards;
   }
   header .link .portfolio {
-    animation: pop 1s ease-in 0.3s forwards;
+    animation: pop 0.4s ease-in 0.3s forwards;
   }
   header .link .contact {
-    animation: pop 1s ease-in 0.4s forwards;
+    animation: pop 0.4s ease-in 0.4s forwards;
   }
   header .link .to-link {
     display: inline-block;
