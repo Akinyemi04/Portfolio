@@ -4,10 +4,12 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import ScrollToTop from './ScrollToTop';
 
 const Contact = () => {
   return (
     <div className='contact-me'>
+      <ScrollToTop/>
       <a href="mailto:{gabrielayoku@gmail.com}?subject={subject}&body={content}"><AlternateEmailIcon className='contact-icon'
       style={{color:'rgb(46, 66, 62)'}}/>
       <p>Email</p>

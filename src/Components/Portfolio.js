@@ -18,7 +18,7 @@ import designo from './images/designo.png'
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react'
-
+import ScrollToTop from './ScrollToTop'
 const Portfolio = () => {
   const width = window.screen.availWidth
   useEffect(()=>{
@@ -30,6 +30,7 @@ const Portfolio = () => {
   },[])
   return (
     <div className='portfo'>
+      <ScrollToTop/>
       <h1>PORTFOLIO</h1>
       <p className='content'>Projects  which i have worked on can be viewed below to better access the webapp  please click the buttons underneath them  and You'll be redirected to the webapp</p>
       <span>App</span>

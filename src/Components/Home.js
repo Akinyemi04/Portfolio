@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { contact } from "./store";
+import ScrollToTop from "./ScrollToTop";
+
 const Home = () => {
   const Dispatch = useDispatch();
   function open() {
@@ -9,6 +11,7 @@ const Home = () => {
   }
   return (
     <div className="home">
+      <ScrollToTop/>
       <main>
         <h1>Akinyemi Gabriel</h1>
         <p>

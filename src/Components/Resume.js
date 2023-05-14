@@ -1,9 +1,11 @@
 import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
 import Brightness1OutlinedIcon from '@mui/icons-material/Brightness1Outlined';
+import ScrollToTop from './ScrollToTop';
 
 const Resume = () => {
   return (
     <div className='resumex'>
+      <ScrollToTop/>
       <article>
         <h1> Resume</h1>
         <p className='pin'></p>

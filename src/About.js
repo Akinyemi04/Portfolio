@@ -1,13 +1,13 @@
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import deep from './Components/images/deep.jpeg'
 import Mini from './Components/Mini'
 import me from './Components/images/important1.jpg'
+import ScrollToTop from './Components/ScrollToTop';
 
 const About = () => {
 
   return (
     <>
-    
+        <ScrollToTop/>
         <div className='about-all '>
           <span className='span'>About</span>
             <p className='pin'>A web developer with a strong eye for innovative design and a keen understanding of techniques geared
