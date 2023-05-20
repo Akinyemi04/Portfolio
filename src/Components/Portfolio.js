@@ -37,67 +37,67 @@ const Portfolio = () => {
       <main>
       <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'100'}>
           <img src={designo} alt="" />
-          <a href="https://master--funny-piroshki-ecbd9a.netlify.app/">Designo</a>
+          <a target="_blank" href="https://master--funny-piroshki-ecbd9a.netlify.app/">Designo</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
           <img src={lendsqr} alt="" />
-          <a href="https://akinyemi-gabriel-lendsqr-fe-test.netlify.app/">Lendsqr</a>
+          <a target="_blank" href="https://akinyemi-gabriel-lendsqr-fe-test.netlify.app/">Lendsqr</a>
         </section>
       <section data-aos='zoom-in' data-aos-delay={width > 500 ? '400':'0'}>
           <img src={ecommerce} alt="" />
-          <a href="https://elegant-commercial.netlify.app/">E-commerce</a>
+          <a target="_blank" href="https://elegant-commercial.netlify.app/">E-commerce</a>
           </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '550':'0'}>
           <img src={jobber} alt="" />
-          <a href="https://jobblee.netlify.app/">Jobber Man</a>
+          <a target="_blank" href="https://jobblee.netlify.app/">Jobber Man</a>
           </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'0'}>
           <img src={form} alt="" />
-          <a href="https://form-livex1.netlify.app/">Gamer Sign-up</a>
+          <a target="_blank" href="https://form-livex1.netlify.app/">Gamer Sign-up</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
           <img src={ip} alt="" />
-          <a href="https://ip-trackerx1.netlify.app/">IP Tracker</a>
+          <a target="_blank" href="https://ip-trackerx1.netlify.app/">IP Tracker</a>
           </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'0'}>
           <img src={twitter} alt="twitter.webpage" />
-          <a href="https://twitter-clone-67536.web.app/">Twitter-Clone</a>
+          <a target="_blank" href="https://twitter-clone-67536.web.app/">Twitter-Clone</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
           <img src={countdown} alt="" />
-          <a href="https://count-down01.netlify.app/">Countdown Timer</a>
+          <a target="_blank" href="https://count-down01.netlify.app/">Countdown Timer</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'0'}>
           <img src={url} alt="" />
-          <a href="https://url-shortenerx1x.netlify.app/">Url Shortener</a>
+          <a target="_blank" href="https://url-shortenerx1x.netlify.app/">Url Shortener</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
           <img src={home_page} alt="" />
-          <a href="https://home-suite.netlify.app/">Home-Royal</a>
+          <a target="_blank" href="https://home-suite.netlify.app/">Home-Royal</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'0'}>
             <img src={game} alt="" />
-            <a href="https://rock-paper-scissorx.netlify.app/">Rock-Paper-Scissors</a>
+            <a target="_blank" href="https://rock-paper-scissorx.netlify.app/">Rock-Paper-Scissors</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
           <img src={country} alt="country-finder" />
-          <a href="https://countryroll.netlify.app/">Country-roll</a>
+          <a target="_blank" href="https://countryroll.netlify.app/">Country-roll</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'0'}>
           <img src={bank} alt="" />
-          <a href="https://easy-bankx1.netlify.app/">EasyBank Landing page</a>
+          <a target="_blank" href="https://easy-bankx1.netlify.app/">EasyBank Landing page</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
          <img src={netflix} alt="netflix" />
-          <a  href='https://netflix-0a.netlify.app/'>Netflix-Clone</a>
+          <a  target="_blank" href='https://netflix-0a.netlify.app/'>Netflix-Clone</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'0'}>
           <img src={calculator} alt="calculator" />
-          <a href="https://calculatorx1x.netlify.app/">Calculator</a>
+          <a target="_blank" href="https://calculatorx1x.netlify.app/">Calculator</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
           <img src={commerce} alt="commerce" />
-          <a href="https://e-commercial01x.netlify.app/">E-commerce</a>
+          <a target="_blank" href="https://e-commercial01x.netlify.app/">E-commerce</a>
         </section>
         
       </main>
