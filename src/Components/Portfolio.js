@@ -83,21 +83,13 @@ const Portfolio = () => {
           <img src={country} alt="country-finder" />
           <a target="_blank" href="https://countryroll.netlify.app/">Country-roll</a>
         </section>
-        <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'0'}>
+        <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
           <img src={bank} alt="" />
           <a target="_blank" href="https://easy-bankx1.netlify.app/">EasyBank Landing page</a>
-        </section>
-        <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
-         <img src={netflix} alt="netflix" />
-          <a  target="_blank" href='https://netflix-0a.netlify.app/'>Netflix-Clone</a>
         </section>
         <section data-aos='zoom-in' data-aos-delay={width > 500 ? '100':'0'}>
           <img src={calculator} alt="calculator" />
           <a target="_blank" href="https://calculatorx1x.netlify.app/">Calculator</a>
-        </section>
-        <section data-aos='zoom-in' data-aos-delay={width > 500 ? '250':'0'}>
-          <img src={commerce} alt="commerce" />
-          <a target="_blank" href="https://e-commercial01x.netlify.app/">E-commerce</a>
         </section>
         
       </main>
