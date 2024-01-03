@@ -9,7 +9,7 @@ const contactSlice=createSlice({
         message:null,
         links:['about','portfolio','contact','resume','services'],
         open:false,
-        displayx:null
+        displayx:null,
     },
     reducers:{
         fill(state,payload){
@@ -39,20 +39,26 @@ const contactSlice=createSlice({
                 ...state,
                 displayx:'none'
             }
-        }
+        },
     }
 })
 const animateSlice = createSlice({
     name:'animate',
     initialState:{
-        element:null
+        element:null,
+        active_portfolio:'Personal'
     },
     reducers:{
         fill(state,payload){
-            console.log(payload.payload)
             return{
                 element:payload.payload
 
+            }
+        },
+        changeActivePortfolio(state,action){
+            return{
+                ...state,
+                active_portfolio:action.payload
             }
         }
     }

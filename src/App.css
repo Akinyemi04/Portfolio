@@ -48,8 +48,8 @@ html {
 .is-visible .mini .bar .python {
   animation: python 3s 0.3s forwards;
 }
-.is-visible .mini .bar .jquery {
-  animation: jquery 3s 0.3s forwards;
+.is-visible .mini .bar .typescript {
+  animation: typescript 3s 0.3s forwards;
 }
 .is-visible .mini .bar .redux {
   animation: redux 3s 0.3s forwards;
@@ -72,7 +72,7 @@ html {
     width: 0%;
   }
   to {
-    width: 80%;
+    width: 90%;
   }
 }
 @keyframes graphql {
@@ -80,7 +80,7 @@ html {
     width: 0%;
   }
   to {
-    width: 50%;
+    width: 60%;
   }
 }
 @keyframes responsive {
@@ -96,7 +96,7 @@ html {
     width: 0%;
   }
   to {
-    width: 73%;
+    width: 88%;
   }
 }
 @keyframes redux {
@@ -104,15 +104,15 @@ html {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 90%;
   }
 }
-@keyframes jquery {
+@keyframes typescript {
   from {
     width: 0%;
   }
   to {
-    width: 40%;
+    width: 50%;
   }
 }
 @keyframes python {
@@ -128,7 +128,7 @@ html {
     width: 0%;
   }
   to {
-    width: 80%;
+    width: 90%;
   }
 }
 @keyframes react {
@@ -136,7 +136,7 @@ html {
     width: 0%;
   }
   to {
-    width: 75%;
+    width: 90%;
   }
 }
 @keyframes css {
@@ -152,7 +152,7 @@ html {
     width: 0%;
   }
   to {
-    width: 82%;
+    width: 85%;
   }
 }
 @keyframes java {
@@ -160,7 +160,7 @@ html {
     width: 0%;
   }
   to {
-    width: 75%;
+    width: 85%;
   }
 }
 .not-visible {
@@ -279,7 +279,7 @@ header .icon {
   justify-content: space-between;
   opacity: 0;
   transform: scale(0);
-  animation: pop 1s linear 1.6s 1 forwards;
+  animation: pop 1s linear 1.11s 1 forwards;
 }
 header .icon .MuiSvgIcon-root {
   transition: color 0.25s ease-in-out;
@@ -496,11 +496,9 @@ header .icon .MuiSvgIcon-root:hover {
   font-weight: 700;
   font-size: 26px;
   text-align: left;
-  -webkit-margin-before: 0em;
-          margin-block-start: 0em;
+  margin-block-start: 0em;
   color: #555555;
-  -webkit-margin-after: 0em;
-          margin-block-end: 0em;
+  margin-block-end: 0em;
 }
 .about-all section aside span {
   text-align: left;
@@ -641,16 +639,14 @@ header .icon .MuiSvgIcon-root:hover {
   flex-wrap: wrap;
 }
 .resumex main .three section .icon {
-  top: 46.8vh;
-  transform: rotate(90deg) scaleX(37.5);
+  top: 75.8vh;
+  transform: rotate(90deg) scaleX(62.5);
 }
 .resumex main p {
   text-align: left;
   padding-left: 1vw;
-  -webkit-margin-before: 0em;
-          margin-block-start: 0em;
-  -webkit-margin-after: 0em;
-          margin-block-end: 0em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 .resumex main .head {
   font-size: 26px;
@@ -996,6 +992,7 @@ header .icon .MuiSvgIcon-root:hover {
     order: 4;
   }
   .resumex main .three section .icon {
-    top: 40.8vh;
+    top: 86.8vh;
+    transform: rotate(90deg) scaleX(73.5);
   }
 }/*# sourceMappingURL=App.css.map */

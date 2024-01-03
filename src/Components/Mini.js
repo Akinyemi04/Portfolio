@@ -8,7 +8,7 @@ const Mini = () => {
         <div>
           <p>
             <span>JAVASCRIPT</span>
-            <span className="value">75%</span>
+            {/* <span className="value">75%</span> */}
           </p>
           <span className="bar">
             <span className="javascript"></span>
@@ -17,7 +17,6 @@ const Mini = () => {
         <div>
           <p>
             <span>HTML</span>
-            <span className="value">82%</span>
           </p>
           <span className="bar">
             <span className="html"></span>
@@ -26,7 +25,6 @@ const Mini = () => {
         <div>
           <p>
             <span>CSS</span>
-            <span className="value">85%</span>
           </p>
           <span className="bar">
             <span className="css"></span>
@@ -35,7 +33,14 @@ const Mini = () => {
         <div>
           <p>
             <span>REACT</span>
-            <span className="value">75%</span>
+          </p>
+          <span className="bar">
+            <span className="react"></span>
+          </span>
+        </div>
+        <div>
+          <p>
+            <span>NEXT</span>
           </p>
           <span className="bar">
             <span className="react"></span>
@@ -44,7 +49,6 @@ const Mini = () => {
         <div>
           <p>
             <span>SASS</span>
-            <span className="value">80%</span>
           </p>
           <span className="bar">
             <span className="sass"></span>
@@ -53,7 +57,6 @@ const Mini = () => {
         <div>
           <p>
             <span>REDUX</span>
-            <span className="value">70%</span>
           </p>
           <span className="bar">
             <span className="redux"></span>
@@ -61,27 +64,16 @@ const Mini = () => {
         </div>
         <div>
           <p>
-            <span>PYTHON</span>
-            <span className="value">50%</span>
+            <span>TYPESCRIPT</span>
           </p>
           <span className="bar">
-            <span className="python"></span>
-          </span>
-        </div>
-        <div>
-          <p>
-            <span>JQUERY</span>
-            <span className="value">40%</span>
-          </p>
-          <span className="bar">
-            <span className="jquery"></span>
+            <span className="typescript"></span>
           </span>
         </div>
 
         <div>
           <p>
             <span>GIT</span>
-            <span className="value">73%</span>
           </p>
           <span className="bar">
             <span className="git"></span>
@@ -90,7 +82,6 @@ const Mini = () => {
         <div>
           <p>
             <span>RESPONSIVE WEB DESIGN</span>
-            <span className="value">95%</span>
           </p>
           <span className="bar">
             <span className="responsive_web"></span>
@@ -99,7 +90,6 @@ const Mini = () => {
         <div>
           <p>
             <span>GRAPHQL</span>
-            <span className="value">50%</span>
           </p>
           <span className="bar">
             <span className="graphql"></span>
@@ -108,7 +98,6 @@ const Mini = () => {
         <div>
           <p>
             <span>RESTFUL API</span>
-            <span className="value">80%</span>
           </p>
           <span className="bar">
             <span className="restful_api"></span>

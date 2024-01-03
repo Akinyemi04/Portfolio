@@ -17,7 +17,6 @@ import { useEffect } from 'react';
 import 'animate.css/animate.min.css'
 import { contact } from './Components/store';
 function App() {
-
   const Dispatch = useDispatch()
   const status = useSelector((val)=>{
     return(val.contact.displayx)

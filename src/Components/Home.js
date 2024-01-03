@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { contact } from "./store";
 import ScrollToTop from "./ScrollToTop";
 
@@ -11,13 +11,11 @@ const Home = () => {
   }
   return (
     <div className="home">
-      <ScrollToTop/>
+      <ScrollToTop />
       <main>
         <h1>Akinyemi Gabriel</h1>
         <p>
-          <span>
-            Bringing 
-          </span>
+          <span>Bringing</span>
           <span>your</span>
           <span>digital</span>
           <span>vision</span>

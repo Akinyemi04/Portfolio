@@ -54,8 +54,8 @@ html {
       .python {
         animation: python 3s 0.3s forwards;
       }
-      .jquery {
-        animation: jquery 3s 0.3s forwards;
+      .typescript {
+        animation: typescript 3s 0.3s forwards;
       }
       .redux {
         animation: redux 3s 0.3s forwards;
@@ -81,7 +81,7 @@ html {
     width: 0%;
   }
   to {
-    width: 80%;
+    width: 90%;
   }
 }
 @keyframes graphql {
@@ -89,7 +89,7 @@ html {
     width: 0%;
   }
   to {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -106,7 +106,7 @@ html {
     width: 0%;
   }
   to {
-    width: 73%;
+    width: 88%;
   }
 }
 @keyframes redux {
@@ -114,15 +114,15 @@ html {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 90%;
   }
 }
-@keyframes jquery {
+@keyframes typescript {
   from {
     width: 0%;
   }
   to {
-    width: 40%;
+    width: 50%;
   }
 }
 @keyframes python {
@@ -138,7 +138,7 @@ html {
     width: 0%;
   }
   to {
-    width: 80%;
+    width: 90%;
   }
 }
 @keyframes react {
@@ -146,7 +146,7 @@ html {
     width: 0%;
   }
   to {
-    width: 75%;
+    width: 90%;
   }
 }
 @keyframes css {
@@ -162,7 +162,7 @@ html {
     width: 0%;
   }
   to {
-    width: 82%;
+    width: 85%;
   }
 }
 @keyframes java {
@@ -170,7 +170,7 @@ html {
     width: 0%;
   }
   to {
-    width: 75%;
+    width: 85%;
   }
 }
 .not-visible {
@@ -287,7 +287,7 @@ header {
     justify-content: space-between;
     opacity: 0;
     transform: scale(0);
-    animation: pop 1s linear 1.6s 1 forwards;
+    animation: pop 1s linear 1.11s 1 forwards;
     .MuiSvgIcon-root {
       transition: color 0.25s ease-in-out;
       cursor: pointer;
@@ -661,8 +661,8 @@ header {
     .three {
       section {
         .icon {
-          top: 46.8vh;
-          transform: rotate(90deg) scaleX(37.5);
+          top: 75.8vh;
+          transform: rotate(90deg) scaleX(62.5);
         }
       }
     }
@@ -1035,7 +1035,8 @@ header {
         order: 4;
         section {
           .icon {
-            top: 40.8vh;
+            top: 86.8vh;
+            transform: rotate(90deg) scaleX(73.5)
           }
         }
       }
