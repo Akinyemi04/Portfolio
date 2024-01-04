@@ -639,7 +639,7 @@ header .icon .MuiSvgIcon-root:hover {
   flex-wrap: wrap;
 }
 .resumex main .three section .icon {
-  top: 75.8vh;
+  top: 65.8vh;
   transform: rotate(90deg) scaleX(62.5);
 }
 .resumex main p {
