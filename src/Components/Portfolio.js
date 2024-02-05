@@ -16,6 +16,7 @@ import ScrollToTop from "./ScrollToTop";
 import { useDispatch } from "react-redux";
 import { animate } from "./store";
 import { useSelector } from "react-redux";
+import kbs from './images/kb-detailing.png'
 
 const Portfolio = () => {
   const width = window.screen.availWidth;
@@ -136,6 +137,12 @@ const Portfolio = () => {
               Acada Power
             </a>
           </section>
+          <section             data-aos="zoom-in"
+            data-aos-delay={width > 500 ? "100" : "0"}>
+              <img src={kbs} alt="" />
+              <a target='_blank' href="https://kbsdetailing.com/">kb's Detailing</a>
+
+          </section>
           <section
             data-aos="zoom-in"
             data-aos-delay={width > 500 ? "100" : "0"}
@@ -145,6 +152,7 @@ const Portfolio = () => {
               Ennyz
             </a>
           </section>
+          
         </main>
       )}
     </div>
