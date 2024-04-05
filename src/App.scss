@@ -333,63 +333,63 @@ header {
       margin-bottom: 3vh;
       transform: scale(0.94);
       animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-      
+
       :nth-child(1) {
         animation: fade-in 0.8s 2.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(2) {
         animation: fade-in 0.8s 2.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(3) {
         animation: fade-in 0.8s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(4) {
         animation: fade-in 0.8s 2.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(5) {
         animation: fade-in 0.8s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(6) {
         animation: fade-in 0.8s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(7) {
         animation: fade-in 0.8s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(8) {
         animation: fade-in 0.8s 2.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(9) {
         animation: fade-in 0.8s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(10) {
-        animation: fade-in 0.8s 3.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+        animation: fade-in 0.8s 3s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
-      
+
       :nth-child(11) {
         animation: fade-in 0.8s 3.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
       }
     }
-      span {
-        display: inline-block;
-        opacity: 0;
-        filter: blur(4px);
-        margin-right: 5px;
+    span {
+      display: inline-block;
+      opacity: 0;
+      filter: blur(4px);
+      margin-right: 5px;
     }
     @keyframes fade-in {
-    100% {
-      opacity: 1;
-      filter: blur(0);
+      100% {
+        opacity: 1;
+        filter: blur(0);
+      }
     }
-  }
     @keyframes scale {
       100% {
         transform: scale(1);
@@ -661,7 +661,7 @@ header {
     .three {
       section {
         .icon {
-          top: 75.8vh;
+          top: 79.5vh;
           transform: rotate(90deg) scaleX(62.5);
         }
       }
@@ -931,7 +931,7 @@ header {
       position: absolute;
       right: 13vw;
       width: 25vw;
-      animation: pop 1s linear  0.8s forwards;
+      animation: pop 1s linear 0.8s forwards;
     }
     .none {
       display: inline-block;
@@ -1036,7 +1036,7 @@ header {
         section {
           .icon {
             top: 76.6vh;
-            transform: rotate(90deg) scaleX(73.5)
+            transform: rotate(90deg) scaleX(73.5);
           }
         }
       }
