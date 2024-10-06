@@ -66,6 +66,12 @@ html {
 .is-visible .mini .bar .restful_api {
   animation: restful 3s 0.3s forwards;
 }
+.is-visible .mini .bar .next {
+  animation: next 3s 0.3s forwards;
+}
+.is-visible .mini .bar .tailwind {
+  animation: tailwind 3s 0.3s forwards;
+}
 
 @keyframes restful {
   from {
@@ -112,7 +118,7 @@ html {
     width: 0%;
   }
   to {
-    width: 50%;
+    width: 80%;
   }
 }
 @keyframes python {
@@ -156,6 +162,22 @@ html {
   }
 }
 @keyframes java {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+@keyframes next {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+@keyframes tailwind {
   from {
     width: 0%;
   }

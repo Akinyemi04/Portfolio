@@ -43,7 +43,7 @@ const Mini = () => {
             <span>NEXT</span>
           </p>
           <span className="bar">
-            <span className="react"></span>
+            <span className="next"></span>
           </span>
         </div>
         <div>
@@ -52,6 +52,14 @@ const Mini = () => {
           </p>
           <span className="bar">
             <span className="sass"></span>
+          </span>
+        </div>
+        <div>
+          <p>
+            <span>TAILWIND</span>
+          </p>
+          <span className="bar">
+            <span className="tailwind"></span>
           </span>
         </div>
         <div>

@@ -67,6 +67,7 @@ useEffect(()=>{
 },[about,windowx,array])
  
   const screen_size = window.innerWidth
+  
   function click(e){
     const data = e.target
     data.setAttribute('id','header')

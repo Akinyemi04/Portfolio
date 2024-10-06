@@ -16,7 +16,8 @@ import ScrollToTop from "./ScrollToTop";
 import { useDispatch } from "react-redux";
 import { animate } from "./store";
 import { useSelector } from "react-redux";
-import kbs from './images/kb-detailing.png'
+import kbs from "./images/kb-detailing.png";
+import foundation from "./images/foundation.png";
 
 const Portfolio = () => {
   const width = window.screen.availWidth;
@@ -61,32 +62,11 @@ const Portfolio = () => {
           </section>
           <section
             data-aos="zoom-in"
-            data-aos-delay={width > 500 ? "250" : "0"}
-          >
-            <img src={lendsqr} alt="" />
-            <a
-              target="_blank"
-              href="https://akinyemi-gabriel-lendsqr-fe-test.netlify.app/"
-            >
-              Lendsqr
-            </a>
-          </section>
-          <section
-            data-aos="zoom-in"
             data-aos-delay={width > 500 ? "400" : "0"}
           >
             <img src={ecommerce} alt="" />
             <a target="_blank" href="https://elegant-commercial.netlify.app/">
               E-commerce
-            </a>
-          </section>
-          <section
-            data-aos="zoom-in"
-            data-aos-delay={width > 500 ? "550" : "0"}
-          >
-            <img src={jobber} alt="" />
-            <a target="_blank" href="https://jobblee.netlify.app/">
-              Jobber Man
             </a>
           </section>
           <section
@@ -107,24 +87,6 @@ const Portfolio = () => {
               IP Tracker
             </a>
           </section>
-          <section
-            data-aos="zoom-in"
-            data-aos-delay={width > 500 ? "250" : "0"}
-          >
-            <img src={url} alt="" />
-            <a target="_blank" href="https://url-shortenerx1x.netlify.app/">
-              Url Shortener
-            </a>
-          </section>
-          <section
-            data-aos="zoom-in"
-            data-aos-delay={width > 500 ? "100" : "0"}
-          >
-            <img src={country} alt="country-finder" />
-            <a target="_blank" href="https://countryroll.netlify.app/">
-              Country-roll
-            </a>
-          </section>
         </main>
       ) : (
         <main>
@@ -137,11 +99,14 @@ const Portfolio = () => {
               Acada Power
             </a>
           </section>
-          <section             data-aos="zoom-in"
-            data-aos-delay={width > 500 ? "100" : "0"}>
-              <img src={kbs} alt="" />
-              <a target='_blank' href="https://kbsdetailing.com/">kb's Detailing</a>
-
+          <section
+            data-aos="zoom-in"
+            data-aos-delay={width > 500 ? "100" : "0"}
+          >
+            <img src={kbs} alt="" />
+            <a target="_blank" href="https://kbsdetailing.com/">
+              kb's Detailing
+            </a>
           </section>
           <section
             data-aos="zoom-in"
@@ -152,7 +117,15 @@ const Portfolio = () => {
               Ennyz
             </a>
           </section>
-          
+          <section
+            data-aos="zoom-in"
+            data-aos-delay={width > 500 ? "100" : "0"}
+          >
+            <img src={foundation} alt="fafoundation" />
+            <a target="_blank" href="https://fafoundation-8uzl.vercel.app/">
+              FAfoundation
+            </a>
+          </section>
         </main>
       )}
     </div>
