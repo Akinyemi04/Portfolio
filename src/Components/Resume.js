@@ -87,7 +87,7 @@ const Resume = () => {
             <p className="content"> Ennyz</p>
             <ul>
               <li>
-                I collaborated with a designer to bring their vision to life,
+                I collaborated with a designer to bring his vision to life,
                 crafting an exceptional portfolio that resonated with their
                 artistic vision. Through meticulous coding and attention to
                 detail, I ensured the seamless integration of design elements,
@@ -97,16 +97,15 @@ const Resume = () => {
               </li>
             </ul>
             <p className="next-head">FRONT-END DEVELOPER</p>
-            <aside className="aside">11/2023- Till Date</aside>
+            <aside className="aside">10/2023- 12/23</aside>
             <p className="content">Rimynder</p>
             <ul>
               <li>
-                I've been actively contributing to an ongoing project by
-                designing and implementing multiple pages. My role involves
-                translating design concepts into fully functional and
-                aesthetically pleasing user interfaces. Through consistent
-                collaboration and iterative development, I've played a key part
-                in shaping and enhancing the project's front-end experience.
+                My role involves translating design concepts into fully
+                functional and aesthetically pleasing user interfaces. Through
+                consistent collaboration and iterative development, I've played
+                a key part in shaping and enhancing the project's front-end
+                experience.
               </li>
             </ul>
           </section>
