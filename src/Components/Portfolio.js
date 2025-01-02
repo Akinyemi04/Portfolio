@@ -38,10 +38,10 @@ const Portfolio = () => {
     <div className="portfo">
       <ScrollToTop />
       <h1>PORTFOLIO</h1>
-      <p className="content">
+      {/* <p className="content">
         Projects which i have worked on can be viewed below to better access the
         webapp please click the buttons underneath them
-      </p>
+      </p> */}
 
       <main>
         <section data-aos="zoom-in" data-aos-delay={width > 500 ? "100" : "0"}>
