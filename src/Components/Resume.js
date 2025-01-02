@@ -59,15 +59,27 @@ const Resume = () => {
           <section>
             <Brightness1OutlinedIcon className="circle" />
             <HorizontalRuleIcon className="icon" />
-            <p className="next-head">FULL STACK DEVELOPER</p>
-            <aside className="aside">02/2023 - 04/23</aside>
-            <p className="content">Delph</p>
+            <p className="next-head">FRONTEND DEVELOPER</p>
+            <aside className="aside">07/2024 - Till Date</aside>
+            <p className="content">Zen Archery</p>
             <ul>
               <li>
-                Created several api's for user authentication and third parties
-                integration for full network flow
+                Engineered a fully responsive user interface, prioritizing
+                enhanced navigation and elevated user engagement.
               </li>
-              <li>Built fully functional and responsive websites </li>
+              <li>
+                Designed and implemented intuitive layouts tailored to
+                streamline interactions and improve accessibility.{" "}
+              </li>
+              <li>
+                Developed dynamic interactive features including Comprehensive
+                membership management options.
+              </li>
+              <li>
+                Ensured cross-device optimization, delivering a consistent and
+                polished user experience across various screen sizes and
+                platforms.
+              </li>
             </ul>
             <p className="next-head">FRONT-END DEVELOPER</p>
             <aside className="aside"> 08/ 23 - 09/ 2023</aside>
